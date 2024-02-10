@@ -1,0 +1,142 @@
+/* Body Styles */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.skip {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+
+.skip:focus {
+    position: static;
+    width: auto;
+    height: auto;
+  }
+
+header {
+    color: #025f3d;
+}
+
+header h1 {
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #ddd;
+    color : #025f3d;
+}
+
+header h2 {
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+header h3 {
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+/* Main Section Styles */
+main {
+    padding: 20px;
+}
+
+main h1 {
+    font-size: 24px;
+}
+
+main h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color : #025f3d;
+    background-color: #c3efe0;
+}
+
+main h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+::-moz-list-bullet {
+    list-style-type: bullets;
+  }
+nav li {
+    float: left;
+  }
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+nav li a:hover {
+    background-color: #111;
+  }
+
+nav .active {
+    background-color: #025f3d;
+    font-style: italic;
+    text-decoration: underline;
+  }
+
+nav li {
+    border-right: 1px solid #bbb;
+  }
+  
+nav li:last-child {
+    border-right: none;
+  }
+
+  .h1 {
+    text-align: center;
+    size: 24px;
+    font-style: bold;
+    color:#04AA6D
+  }
+
+.grid-container{
+    display: grid;
+    position: relative;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+
+.grid-container img {
+    width: 100%;
+    position: relative;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
