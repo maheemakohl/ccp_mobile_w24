@@ -140,3 +140,35 @@ nav li:last-child {
     object-position: center;
 }
 
+.grid-container-recipe{
+    display: grid;
+    position: relative;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.item5 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.item6 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.item8 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+.item10 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
